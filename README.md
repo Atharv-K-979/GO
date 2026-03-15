@@ -1,7 +1,7 @@
 # Go (Golang)
 # What is Go?
 
-## Go (Golang) is a statically typed, compiled programming language developed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. It was released in 2009 and is designed to ## build fast, reliable, and scalable software. Go is commonly used for backend systems, cloud services, and distributed applications.
+## Go (Golang) is a statically typed, compiled programming language developed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. It was released in 2009 and is designed build fast, reliable, and scalable software. Go is commonly used for backend systems, cloud services, and distributed applications.
 
 
 # Key Features of Go
