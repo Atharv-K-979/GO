@@ -11,3 +11,11 @@
 - `go install` – Compile and install the binary into `$GOBIN`
 - `go env` – Show Go environment variables
 - `go mod init main` – Like git init in go this stores version and all (dependencies)
+- `go build`- -- Compile to binary
+- `go fmt ./...`- -- Format all code
+- `go vet ./...` --Static analysis
+- `go test ./...` -- Run tests
+- `go mod tidy`	-- Clean dependencies
+- `go get pkg` --	Download package
+- `go install` --	Install binary
+- `go doc fmt.Println` --	View docs
