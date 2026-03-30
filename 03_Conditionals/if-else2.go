@@ -33,7 +33,15 @@ func main() {
 	} else if age >= 12 {
 		fmt.Println("person is teenager", age)
 	}
-
+	if val, err := doSomething(); err != nil {
+    fmt.Println("error:", err)
+	} else {
+	    fmt.Println("value:", val)
+	}
 	// go does not have ternary, you will have to use normal if else
 
+}
+
+func doSomething() (any, any) {
+	panic("unimplemented")
 }
