@@ -26,15 +26,15 @@ func main() {
 	fmt.Println(len(m1))
 
 	delete(m, "price")
-	clear(m)
+	clear(m)  // delete all elements from the map
 
 	fmt.Println(m)
 	fmt.Println(m1)
 
 	m2 := map[string]int{"price": 40, "phones": 3}
-	print(m2)
+	print(m2)  
 	v, ok := m["phones"]
-	fmt.Println(v)
+	fmt.Println(v) // v gives value if not present then it gives zero value
 	if ok {
 		fmt.Println("all ok")
 	} else {

@@ -27,17 +27,6 @@ func main() {
 		fmt.Println("yes")
 	}
 
-	// we can declare a variable inside if construct
-	if age := 20; age >= 18 {
-		fmt.Println("person is an adult", age)
-	} else if age >= 12 {
-		fmt.Println("person is teenager", age)
-	}
-	if val, err := doSomething(); err != nil {
-    fmt.Println("error:", err)
-	} else {
-	    fmt.Println("value:", val)
-	}
 	// go does not have ternary, you will have to use normal if else
 
 }

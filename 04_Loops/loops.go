@@ -26,8 +26,17 @@ func main() {
 
 	}
 
-	// 1.22 range
+	// version 1.22 range
 	for i := range 11 {
-		fmt.Println(i)
+		fmt.Println(i)   // 0 to 2
 	}
+	
+	// for i:= range "Atharv"{
+	// 	fmt.Println(i);
+	// 	fmt.Println("hii")
+	// }
+	// wrong
+	for _, ch := range "Atharv" {  // _ is ignored
+    fmt.Printf("%c\n", ch)
+}
 }

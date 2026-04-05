@@ -1,6 +1,7 @@
 package main
 import "fmt"
 // numbered sequence of specific length
+
 func main() {
 	// zeroed values
 	// int -> 0, string -> "", bool -> false

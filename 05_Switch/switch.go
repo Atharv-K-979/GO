@@ -23,13 +23,14 @@ func main() {
 	// multiple condition switch
 
 	switch time.Now().Weekday() {
-	case time.Saturday, time.Sunday:
+	case time.Saturday, time.Sunday:         // if today is sat or sun 
 		fmt.Println("it's weekend")
 	default:
 		fmt.Println("it's workday")
 	}
 
-	// type switch
+	
+	// **** type switch
 	whoAmI := func(i interface{}) {
 		switch i.(type) {
 		case int:
